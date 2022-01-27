@@ -35,17 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E522EA3426EE3E1D00EBD86E /* NoStoryboardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoStoryboardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E522EA3426EE3E1D00EBD86E /* GetOTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetOTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E522EA3726EE3E1D00EBD86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E522EA3926EE3E1D00EBD86E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E522EA3B26EE3E1D00EBD86E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E522EA4026EE3E1F00EBD86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E522EA4326EE3E1F00EBD86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E522EA4526EE3E1F00EBD86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E522EA4A26EE3E1F00EBD86E /* NoStoryboardAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoStoryboardAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E522EA4A26EE3E1F00EBD86E /* GetOTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E522EA4E26EE3E1F00EBD86E /* NoStoryboardAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoStoryboardAppTests.swift; sourceTree = "<group>"; };
 		E522EA5026EE3E1F00EBD86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E522EA5526EE3E1F00EBD86E /* NoStoryboardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoStoryboardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E522EA5526EE3E1F00EBD86E /* GetOTPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOTPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E522EA5926EE3E1F00EBD86E /* NoStoryboardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoStoryboardAppUITests.swift; sourceTree = "<group>"; };
 		E522EA5B26EE3E1F00EBD86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E522EA6726EE411F00EBD86E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -79,9 +79,9 @@
 		E522EA2B26EE3E1D00EBD86E = {
 			isa = PBXGroup;
 			children = (
-				E522EA3626EE3E1D00EBD86E /* NoStoryboardApp */,
-				E522EA4D26EE3E1F00EBD86E /* NoStoryboardAppTests */,
-				E522EA5826EE3E1F00EBD86E /* NoStoryboardAppUITests */,
+				E522EA3626EE3E1D00EBD86E /* GetOTP */,
+				E522EA4D26EE3E1F00EBD86E /* GetOTPTests */,
+				E522EA5826EE3E1F00EBD86E /* GetOTPUITests */,
 				E522EA3526EE3E1D00EBD86E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		E522EA3526EE3E1D00EBD86E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E522EA3426EE3E1D00EBD86E /* NoStoryboardApp.app */,
-				E522EA4A26EE3E1F00EBD86E /* NoStoryboardAppTests.xctest */,
-				E522EA5526EE3E1F00EBD86E /* NoStoryboardAppUITests.xctest */,
+				E522EA3426EE3E1D00EBD86E /* GetOTP.app */,
+				E522EA4A26EE3E1F00EBD86E /* GetOTPTests.xctest */,
+				E522EA5526EE3E1F00EBD86E /* GetOTPUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E522EA3626EE3E1D00EBD86E /* NoStoryboardApp */ = {
+		E522EA3626EE3E1D00EBD86E /* GetOTP */ = {
 			isa = PBXGroup;
 			children = (
 				E522EA6926EE412700EBD86E /* Views */,
@@ -107,25 +107,25 @@
 				E522EA4226EE3E1F00EBD86E /* LaunchScreen.storyboard */,
 				E522EA4526EE3E1F00EBD86E /* Info.plist */,
 			);
-			path = NoStoryboardApp;
+			path = GetOTP;
 			sourceTree = "<group>";
 		};
-		E522EA4D26EE3E1F00EBD86E /* NoStoryboardAppTests */ = {
+		E522EA4D26EE3E1F00EBD86E /* GetOTPTests */ = {
 			isa = PBXGroup;
 			children = (
 				E522EA4E26EE3E1F00EBD86E /* NoStoryboardAppTests.swift */,
 				E522EA5026EE3E1F00EBD86E /* Info.plist */,
 			);
-			path = NoStoryboardAppTests;
+			path = GetOTPTests;
 			sourceTree = "<group>";
 		};
-		E522EA5826EE3E1F00EBD86E /* NoStoryboardAppUITests */ = {
+		E522EA5826EE3E1F00EBD86E /* GetOTPUITests */ = {
 			isa = PBXGroup;
 			children = (
 				E522EA5926EE3E1F00EBD86E /* NoStoryboardAppUITests.swift */,
 				E522EA5B26EE3E1F00EBD86E /* Info.plist */,
 			);
-			path = NoStoryboardAppUITests;
+			path = GetOTPUITests;
 			sourceTree = "<group>";
 		};
 		E522EA6926EE412700EBD86E /* Views */ = {
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E522EA3326EE3E1D00EBD86E /* NoStoryboardApp */ = {
+		E522EA3326EE3E1D00EBD86E /* GetOTP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E522EA5E26EE3E1F00EBD86E /* Build configuration list for PBXNativeTarget "NoStoryboardApp" */;
+			buildConfigurationList = E522EA5E26EE3E1F00EBD86E /* Build configuration list for PBXNativeTarget "GetOTP" */;
 			buildPhases = (
 				E522EA3026EE3E1D00EBD86E /* Sources */,
 				E522EA3126EE3E1D00EBD86E /* Frameworks */,
@@ -151,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = NoStoryboardApp;
+			name = GetOTP;
 			productName = NoStoryboardApp;
-			productReference = E522EA3426EE3E1D00EBD86E /* NoStoryboardApp.app */;
+			productReference = E522EA3426EE3E1D00EBD86E /* GetOTP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E522EA4926EE3E1F00EBD86E /* NoStoryboardAppTests */ = {
+		E522EA4926EE3E1F00EBD86E /* GetOTPTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E522EA6126EE3E1F00EBD86E /* Build configuration list for PBXNativeTarget "NoStoryboardAppTests" */;
+			buildConfigurationList = E522EA6126EE3E1F00EBD86E /* Build configuration list for PBXNativeTarget "GetOTPTests" */;
 			buildPhases = (
 				E522EA4626EE3E1F00EBD86E /* Sources */,
 				E522EA4726EE3E1F00EBD86E /* Frameworks */,
@@ -169,14 +169,14 @@
 			dependencies = (
 				E522EA4C26EE3E1F00EBD86E /* PBXTargetDependency */,
 			);
-			name = NoStoryboardAppTests;
+			name = GetOTPTests;
 			productName = NoStoryboardAppTests;
-			productReference = E522EA4A26EE3E1F00EBD86E /* NoStoryboardAppTests.xctest */;
+			productReference = E522EA4A26EE3E1F00EBD86E /* GetOTPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E522EA5426EE3E1F00EBD86E /* NoStoryboardAppUITests */ = {
+		E522EA5426EE3E1F00EBD86E /* GetOTPUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E522EA6426EE3E1F00EBD86E /* Build configuration list for PBXNativeTarget "NoStoryboardAppUITests" */;
+			buildConfigurationList = E522EA6426EE3E1F00EBD86E /* Build configuration list for PBXNativeTarget "GetOTPUITests" */;
 			buildPhases = (
 				E522EA5126EE3E1F00EBD86E /* Sources */,
 				E522EA5226EE3E1F00EBD86E /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				E522EA5726EE3E1F00EBD86E /* PBXTargetDependency */,
 			);
-			name = NoStoryboardAppUITests;
+			name = GetOTPUITests;
 			productName = NoStoryboardAppUITests;
-			productReference = E522EA5526EE3E1F00EBD86E /* NoStoryboardAppUITests.xctest */;
+			productReference = E522EA5526EE3E1F00EBD86E /* GetOTPUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E522EA2F26EE3E1D00EBD86E /* Build configuration list for PBXProject "NoStoryboardApp" */;
+			buildConfigurationList = E522EA2F26EE3E1D00EBD86E /* Build configuration list for PBXProject "GetOTP" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E522EA3326EE3E1D00EBD86E /* NoStoryboardApp */,
-				E522EA4926EE3E1F00EBD86E /* NoStoryboardAppTests */,
-				E522EA5426EE3E1F00EBD86E /* NoStoryboardAppUITests */,
+				E522EA3326EE3E1D00EBD86E /* GetOTP */,
+				E522EA4926EE3E1F00EBD86E /* GetOTPTests */,
+				E522EA5426EE3E1F00EBD86E /* GetOTPUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		E522EA4C26EE3E1F00EBD86E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E522EA3326EE3E1D00EBD86E /* NoStoryboardApp */;
+			target = E522EA3326EE3E1D00EBD86E /* GetOTP */;
 			targetProxy = E522EA4B26EE3E1F00EBD86E /* PBXContainerItemProxy */;
 		};
 		E522EA5726EE3E1F00EBD86E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E522EA3326EE3E1D00EBD86E /* NoStoryboardApp */;
+			target = E522EA3326EE3E1D00EBD86E /* GetOTP */;
 			targetProxy = E522EA5626EE3E1F00EBD86E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,13 +437,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 79ST72N5UQ;
-				INFOPLIST_FILE = NoStoryboardApp/Info.plist;
+				DEVELOPMENT_TEAM = LHR54AKD9P;
+				INFOPLIST_FILE = GetOTP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.saimanoj.NoStoryboardApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saimanoj.GetOTP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,13 +456,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 79ST72N5UQ;
-				INFOPLIST_FILE = NoStoryboardApp/Info.plist;
+				DEVELOPMENT_TEAM = LHR54AKD9P;
+				INFOPLIST_FILE = GetOTP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.saimanoj.NoStoryboardApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saimanoj.GetOTP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,18 +476,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79ST72N5UQ;
-				INFOPLIST_FILE = NoStoryboardAppTests/Info.plist;
+				INFOPLIST_FILE = GetOTPTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.saimanoj.NoStoryboardAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saimanoj.GetOTPTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoStoryboardApp.app/NoStoryboardApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetOTP.app/GetOTP";
 			};
 			name = Debug;
 		};
@@ -498,18 +498,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79ST72N5UQ;
-				INFOPLIST_FILE = NoStoryboardAppTests/Info.plist;
+				INFOPLIST_FILE = GetOTPTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.saimanoj.NoStoryboardAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saimanoj.GetOTPTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoStoryboardApp.app/NoStoryboardApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetOTP.app/GetOTP";
 			};
 			name = Release;
 		};
@@ -519,17 +519,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79ST72N5UQ;
-				INFOPLIST_FILE = NoStoryboardAppUITests/Info.plist;
+				INFOPLIST_FILE = GetOTPUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.saimanoj.NoStoryboardAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saimanoj.GetOTPUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NoStoryboardApp;
+				TEST_TARGET_NAME = GetOTP;
 			};
 			name = Debug;
 		};
@@ -539,24 +539,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79ST72N5UQ;
-				INFOPLIST_FILE = NoStoryboardAppUITests/Info.plist;
+				INFOPLIST_FILE = GetOTPUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.saimanoj.NoStoryboardAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saimanoj.GetOTPUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NoStoryboardApp;
+				TEST_TARGET_NAME = GetOTP;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E522EA2F26EE3E1D00EBD86E /* Build configuration list for PBXProject "NoStoryboardApp" */ = {
+		E522EA2F26EE3E1D00EBD86E /* Build configuration list for PBXProject "GetOTP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E522EA5C26EE3E1F00EBD86E /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E522EA5E26EE3E1F00EBD86E /* Build configuration list for PBXNativeTarget "NoStoryboardApp" */ = {
+		E522EA5E26EE3E1F00EBD86E /* Build configuration list for PBXNativeTarget "GetOTP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E522EA5F26EE3E1F00EBD86E /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E522EA6126EE3E1F00EBD86E /* Build configuration list for PBXNativeTarget "NoStoryboardAppTests" */ = {
+		E522EA6126EE3E1F00EBD86E /* Build configuration list for PBXNativeTarget "GetOTPTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E522EA6226EE3E1F00EBD86E /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E522EA6426EE3E1F00EBD86E /* Build configuration list for PBXNativeTarget "NoStoryboardAppUITests" */ = {
+		E522EA6426EE3E1F00EBD86E /* Build configuration list for PBXNativeTarget "GetOTPUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E522EA6526EE3E1F00EBD86E /* Debug */,

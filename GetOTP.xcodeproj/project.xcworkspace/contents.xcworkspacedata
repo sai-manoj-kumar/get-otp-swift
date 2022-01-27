@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/sai.yadlapati/code/practice/get-otp-swift/GetOTP.xcodeproj">
    </FileRef>
 </Workspace>
